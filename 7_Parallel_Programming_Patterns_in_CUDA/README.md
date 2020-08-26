@@ -1,0 +1,2 @@
+# Parallel Programming Patterns in CUDA
+多くのアプリケーションで広く使われている並列プログラミングのアルゴリズムを扱う．
