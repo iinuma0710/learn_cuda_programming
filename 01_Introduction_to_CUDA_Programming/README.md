@@ -23,3 +23,14 @@
 - [Vector addition using CUDA](./04_Vector_addition_using_CUDA.md)
 - [Error reporting with CUDA](./05_Error_reporting_in_CUDA.md)
 - [Data type support in CUDA](./06_Data_type_support_in_CUDA.md)
+
+## 技術要件
+この章で扱う内容は，次の条件を満たすことを前提とする．
+
+- OS : Linux or Windows
+- GPU : Pascal アーキテクチャ以降の NVIDIA GPU
+- CUDA : CUDA 10.0 以降
+
+GPU のアーキテクチャが不明な場合は，[NVIDIA のサイト](https://developer.nvidia.com/cuda-gpus)から確認できる．
+
+この章のサンプルコードは CUDA 10.1 で開発・検証を行っている．
