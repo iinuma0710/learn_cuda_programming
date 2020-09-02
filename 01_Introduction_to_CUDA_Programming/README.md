@@ -1,4 +1,4 @@
-# Introduction to CUDA Programming
+# 1, Introduction to CUDA Programming
 2007年の最初のリリース以来，**Compute Unified Device Architecture (CUDA)** は，
 **Graphic Computing Units (GPUs)** を一般の計算，すなわちグラフィック以外の用途に用いる場合の
 デ・ファクト・スタンダードとして使われるようになってきた．
