@@ -44,11 +44,11 @@ CUDA Toolkit は **NVIDIA Profiler (NVPROF)** と **NVIDIA Visual Profiler (NVVP
 ```bash
 $ nvcc -o sgemm sgemm.cu -I /usr/local/cuda/samples/common/inc
 $ sudo nvprof -o sgemm.nvvp ./sgemm
-$ sudo nvprof --analysis-metrics -o sgemm-analysis.nvpp ./sgemm
+$ sudo nvprof --analysis-metrics -o sgemm-analysis.nvvp ./sgemm
 ```
 
 それでは Visual Profiler を開いてみよう．
-ターミナルから ```nvvp``` コマンドで起動できる．
+ターミナルから ```nvvp -vm /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java``` コマンドで起動できる．
 表示されたウィンドウの左上にある File → Inport と進み，Nvprof を選択して Next ボタンを押す．
 このプログラムでは，1プロセスしか使っていないので，Single process を選択して Next を押す．
 
