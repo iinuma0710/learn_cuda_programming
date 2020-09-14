@@ -1,0 +1,1 @@
+# 2.2 Understanding CUDA occupancy

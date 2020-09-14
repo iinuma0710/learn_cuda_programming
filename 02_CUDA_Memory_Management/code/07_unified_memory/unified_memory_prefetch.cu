@@ -26,8 +26,8 @@ int main(void)
         y[i] = 2.0f;
     }
 
-    cudaGetDevice(&device);
     // GPU が unified memory のメモリをプリフェッチする
+    cudaGetDevice(&device);
     cudaMemPrefetchAsync(x, N*sizeof(float), device, NULL);
     cudaMemPrefetchAsync(y, N*sizeof(float), device, NULL);
 
